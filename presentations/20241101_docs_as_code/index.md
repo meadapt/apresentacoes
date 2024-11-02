@@ -32,7 +32,7 @@ Note:
 
 ## Docs as code
 
-[Filosofia](https://www.writethedocs.org/guide/docs-as-code/) preconiza escrita de documentação com as [mesmas ferramentas utilizadas no desenvolvimento de softwares](https://ofuturojacomecou.com.br/blog/como-o-github-pode-ser-utilizado-para-facilitar-o-entendimento-das-normas-de-sua-equipe/).
+[Filosofia](https://www.writethedocs.org/guide/docs-as-code/) preconiza escrita de documentação com as [mesmas ferramentas utilizadas no desenvolvimento de softwares](https://meadapt.com/blog/pare-tudo-que-esta-fazendo-e-vem-conhecer-o-github/).
 
 Note:
 - Softwar nada mais é do que um conjunto organizado de arquivos de texto.
