@@ -53,6 +53,7 @@ Note:
 ## Docs as code
 - Exemplos:
   - [Site MeAdapt](https://meadapt.com).
+  - [Site Automatiza.MG](https://automatiza-mg.github.io/automatizacoes/).
   - Esta apresentação.
 
 
@@ -88,7 +89,7 @@ Note:
 - Lista não ordenada: - Item
 - Código em linha: "``"
 - Links: `[]()`
-- Imagens: `![]()` - https://imgur.com/
+- Imagens: `![]()` - [https://unsplash.com/](https://media.istockphoto.com/id/1679733776/photo/closeup-image-of-judge-gavel-and-text-product-liability.webp?a=1&b=1&s=612x612&w=0&k=20&c=KXqN8IRwVW7k3Nexdwol2K9ZJPWakOjC8tkg3UR1g9E=)
 
 Note:
 - Sintaxe utilizada para maioria das nossas necessidades.
@@ -106,6 +107,10 @@ Note:
 
 
 ## Site estático
+
+[Mkdoc](https://www.mkdocs.org/)
+
+[Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/)
 
 
 ## Mkdocs
@@ -165,33 +170,21 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_div_format
-
-extra_css:
-  - https://unpkg.com/mermaid@10.4.0/dist/mermaid.css
-extra_javascript:
-  - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js
+          format: !!python/name:pymdownx.superfences.fence_code_format
 ```
 
 
 ## Customatizações
-- Instalação de Pacote [mkdocs-material](https://squidfunk.github.io/mkdocs-material/getting-started/):
+- Instalação e customização do pacote [mkdocs-material](https://squidfunk.github.io/mkdocs-material/creating-your-site/):
 
 ```
 $ pip install mkdocs-material
 
 # mkdocs.yml
+site_name: My site
+site_url: https://mydomain.org/mysite
 theme:
   name: material
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Modo noturno
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Modo claro
 ```
 
 
@@ -220,9 +213,9 @@ mkdocs gh-deploy # Verifica página publicada.
 ## O que mais?
 
 - Consute a documentação [Material](https://squidfunk.github.io/mkdocs-material/getting-started/) para saber como incluir:
-    - [Sistema de cometários](https://suges-mg.github.io/handbook/blog/criacao-de-usuario-para-adminstracao-geral-github/).
-    - [Versionamento](https://transparencia-mg.github.io/guia-transparencia-ativa/).
-    - [Firulas em geral](https://suges-mg.github.io/handbook/blog/acessando-vpn-seplag/#:~:text=criei%20o%20seguinte-,alias,-%3A).
+    - [Sistema de cometários](https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/?h=comment).
+    - [Versionamento](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/?h=versio).
+    - [Firulas em geral](https://squidfunk.github.io/mkdocs-material/reference/grids/?h=grid).
     - E muito mais!!!
 
 
